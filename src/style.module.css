@@ -1,10 +1,28 @@
 .card {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.topPadding{
-    /* padding-top: 5px; */
+.topPadding {
+  /* padding-top: 5px; */
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.products .productIcon {
+  border: 1px solid #dddbd6;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f7f6f4;
+  border-radius:5px;
+  font-size: 20px;
 }
